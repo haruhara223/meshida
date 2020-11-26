@@ -1,0 +1,53 @@
+.container{
+    width:1170px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.top-wrapper{
+    padding-top:180px;
+    padding-bottom:50px;
+    background-image: url(https://i.ytimg.com/vi/cLEjqixSeRM/maxresdefault.jpg);
+    color:white;
+    text-align: center;
+}
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size:50px;
+    letter-spacing:10px
+}
+.top-wrapper p{
+    opacity:0.7
+}
+.btn{
+    padding:8px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    border-radius: 4px;
+}
+.application{
+    background-color: #239b76;
+}
+.youtube{
+    background-color: red;
+    margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+.btn-wrapper{
+    margin:20px;
+}
+.btn-wrapper p{
+    margin:10px 0 10px 0;
+}
+.btn:hover{
+    opacity:1;
+}
+.fab{
+    margin-right:10px;
+}
+header{
+    height:65px;
+    background-color:rgba(34, 49, 52, 0.9);
+}
