@@ -76,6 +76,7 @@ header{
     height:500px;
     padding-bottom:80px;
     background-color:#f7f7f7;
+    text-align: center;
 }
 .heading{
     padding:60px 0 30px 0;
@@ -87,4 +88,13 @@ header{
 .event{
     float:left;
     width:25%;
+}
+.event-icon{
+    position:relative;
+}
+.event-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:white;
 }
