@@ -51,3 +51,40 @@ header{
     height:65px;
     background-color:rgba(34, 49, 52, 0.9);
 }
+.logo{
+    width:50px;
+    margin-top:5px;
+}
+.header-left{
+    float:left;
+}
+.header-right{
+    float:right;
+    background-color:rgba(255, 255, 255, 0.3);
+    transition:all 0.5s;
+}
+.header-right:hover{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.header-right a{
+    line-height: 65px;
+    padding:0 25px;
+    color:white;
+    display:block;
+}
+.event-wrapper{
+    height:500px;
+    padding-bottom:80px;
+    background-color:#f7f7f7;
+}
+.heading{
+    padding:60px 0 30px 0;
+    color:#5f5d60;
+}
+.heading h2{
+    font-weight:normal;
+}
+.event{
+    float:left;
+    width:25%;
+}
