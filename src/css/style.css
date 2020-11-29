@@ -119,3 +119,9 @@ header{
 .heading h3{
     font-weight:normal;
 }
+.message:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+    right:7px;
+}
