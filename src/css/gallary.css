@@ -8,18 +8,11 @@
 *{
     box-sizing:border-box;
 }
+.top{
+    line-height: 2.0em;
+}
 .event-icon{
     position:relative;
-}
-
-.event-icon h1{
-    position:absolute;
-    top:200px;
-    font-size: 35px;
-    width:100%;
-    color:white;
-    text-align:center;
-    opacity: 0.7;
 }
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
