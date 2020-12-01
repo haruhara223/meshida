@@ -79,7 +79,6 @@ header{
     display:block;
 }
 .event-wrapper{
-    height:500px;
     padding-bottom:80px;
     background-color:#f7f7f7;
     text-align: center;
@@ -94,6 +93,9 @@ header{
 .event{
     float:left;
     width:25%;
+}
+.clear{
+    clear:left;
 }
 .event-icon{
     position:relative;
@@ -140,4 +142,15 @@ footer p{
 }
 footer{
     padding-top:30px;
+}
+@media(max-width:1000px){
+    .event{
+        width:50%;
+        margin-bottom:50px;
+    }
+}
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
 }
