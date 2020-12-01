@@ -153,4 +153,14 @@ footer{
     .event{
         width:100%;
     }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+    .top-wrapper{
+        text-align:left;
+        padding-top:130px;
+    }
 }
