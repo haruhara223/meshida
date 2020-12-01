@@ -14,7 +14,8 @@
 
 .event-icon h1{
     position:absolute;
-    top:90px;
+    top:200px;
+    font-size: 35px;
     width:100%;
     color:white;
     text-align:center;
