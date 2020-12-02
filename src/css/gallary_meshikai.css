@@ -11,6 +11,18 @@
 *{
     margin:0;padding:0;
 }
+.contents{
+    margin:3em 3em;
+}
+.top{
+    line-height: 2.0em;
+}
+.top h1{
+    font-size: 2em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+}
 .gallery{
     columns:260px;
     column-gap:10px;
