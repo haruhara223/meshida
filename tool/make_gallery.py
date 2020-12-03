@@ -1,13 +1,12 @@
-from PIL import Image
 import os
 
 IMG_DIR = "../src/img/"
 IMG_DIR_HTML = "../img/"
 HTML_DIR = "../src/gallery/"
 IMG_TEMPLATE_HTML = "          <div class=\"column\"><img src=\"{}\"></div>"
-OPEN_COLUMN_HTML = "<div class=\"columns is-desktop\">"
-END_COLUMN_HTML = "</div>"
-COLUMN_TAMPLATE_HTML = "<div class=\"column\"></div>"
+OPEN_COLUMN_HTML = "        <div class=\"columns is-desktop\">"
+END_COLUMN_HTML = "        </div>"
+COLUMN_TAMPLATE_HTML = "          <div class=\"column\"></div>"
 TOP_IMG_BIG_FILE_NAME = "topimg_big.jpg"
 TOP_IMG_FILE_NAME = "topimg.jpg"
 
@@ -21,13 +20,13 @@ for d in dir_list:
     img_contents = []
     img_num = 0
     img_contents.append(OPEN_COLUMN_HTML)
-    for idx, img_path in enumerate(os.listdir(os.path.join(IMG_DIR, d))):
-        if img_path in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
+    for img_file_name in os.listdir(os.path.join(IMG_DIR, d)):
+        if img_file_name in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
         img_num += 1
-        if idx % 3 == 0 and idx > 0:
+        if img_num % 3 == 0 and img_num > 0:
             img_contents.append(END_COLUMN_HTML)
             img_contents.append(OPEN_COLUMN_HTML)
-        img_contents.append(IMG_TEMPLATE_HTML.format(os.path.join(IMG_DIR_HTML, d, img_path)))
+        img_contents.append(IMG_TEMPLATE_HTML.format(os.path.join(IMG_DIR_HTML, d, img_file_name)))
     while img_num % 3 != 2:
         img_contents.append(COLUMN_TAMPLATE_HTML)
         img_num += 1
@@ -35,6 +34,3 @@ for d in dir_list:
     html = html_template.replace("%topimg%", os.path.join(IMG_DIR_HTML, d, TOP_IMG_BIG_FILE_NAME)).replace("%gallery%", "\n".join(img_contents))
     with open(os.path.join(HTML_DIR, d) + ".html", mode="w") as f:
         f.write(html)
-    
-    
-    
