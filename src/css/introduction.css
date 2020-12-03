@@ -10,7 +10,7 @@
 }
 .contents{
     margin:3em 3em;
-    line-height:1.5em;
+    line-height:2em;
 }
 .club-intro h1{
     font-size: 2em;
@@ -26,9 +26,11 @@
 }
 .member-pic{
     float: left;
+    width:50%;
 }
 .member-txt{
     float:right;
+    width:50%;
 }
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
