@@ -22,12 +22,12 @@ for d in dir_list:
     img_contents.append(OPEN_COLUMN_HTML)
     for img_file_name in os.listdir(os.path.join(IMG_DIR, d)):
         if img_file_name in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
-        img_num += 1
         if img_num % 3 == 0 and img_num > 0:
             img_contents.append(END_COLUMN_HTML)
             img_contents.append(OPEN_COLUMN_HTML)
         img_contents.append(IMG_TEMPLATE_HTML.format(os.path.join(IMG_DIR_HTML, d, img_file_name)))
-    while img_num % 3 != 2:
+        img_num += 1
+    while img_num % 3 != 0:
         img_contents.append(COLUMN_TAMPLATE_HTML)
         img_num += 1
     img_contents.append(END_COLUMN_HTML)
