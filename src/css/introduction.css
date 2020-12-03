@@ -24,13 +24,10 @@
     color:red;
     padding:15px 10px;
 }
-.member-pic{
-    float: left;
-    width:25%;
-}
-.member-txt{
-    float:right;
-    width:75%;
+.club-member{
+    float:left;
+    width:50%
+    display:inline-block;
 }
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
