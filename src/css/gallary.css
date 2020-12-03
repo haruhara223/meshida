@@ -23,6 +23,20 @@
 .event-icon{
     position:relative;
 }
+.bottom{
+    float:right;
+    background-color: tomato;
+    transition: all 0.5s;
+}
+.bottom:hover{
+    background-color: wheat;
+}
+.bottom a{
+    line-height:50px;
+    padding:0 15px;
+    color:white;
+    display:block;
+}
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
     .event{
