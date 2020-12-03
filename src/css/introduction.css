@@ -1,0 +1,60 @@
+ .container{
+    max-width: 1170px;
+    width:100%;
+    padding:0 15px;
+    margin:0 auto;
+    background-color:rgb(255, 247, 130);
+} 
+*{
+    box-sizing:border-box;
+}
+.contents{
+    margin:3em 3em;
+}
+.club-intro h1{
+    font-size: 2em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+}
+.club-member h1{
+    font-size: 2em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+}
+.event-icon{
+    position:relative;
+}
+/* タブレット向けレイアウト */
+@media(max-width:1000px){
+    .event{
+        width:50%;
+        margin-bottom:50px;
+    }
+    .top-wrapper h1{
+        font-size:32px;
+    }
+    .heading h2{
+        font-size:20px;
+    }
+}
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+    .top-wrapper{
+        text-align:left;
+        padding-top:130px;
+    }
+    .top-wrapper p{
+        font-size:14px;
+    }
+}
