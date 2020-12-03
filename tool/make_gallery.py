@@ -8,6 +8,8 @@ IMG_TEMPLATE_HTML = "          <div class=\"column\"><img src=\"{}\"></div>"
 OPEN_COLUMN_HTML = "<div class=\"columns is-desktop\">"
 END_COLUMN_HTML = "</div>"
 COLUMN_TAMPLATE_HTML = "<div class=\"column\"></div>"
+TOP_IMG_BIG_FILE_NAME = "topimg_big.jpg"
+TOP_IMG_FILE_NAME = "topimg.jpg"
 
 dir_list = os.listdir(IMG_DIR)
 
@@ -17,18 +19,20 @@ with open('template.html') as f:
 
 for d in dir_list:
     img_contents = []
-    title = d
+    img_num = 0
     img_contents.append(OPEN_COLUMN_HTML)
     for idx, img_path in enumerate(os.listdir(os.path.join(IMG_DIR, d))):
+        if img_path in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
+        img_num += 1
         if idx % 3 == 0 and idx > 0:
             img_contents.append(END_COLUMN_HTML)
             img_contents.append(OPEN_COLUMN_HTML)
         img_contents.append(IMG_TEMPLATE_HTML.format(os.path.join(IMG_DIR_HTML, d, img_path)))
-    while idx % 3 != 2:
+    while img_num % 3 != 2:
         img_contents.append(COLUMN_TAMPLATE_HTML)
-        idx += 1
+        img_num += 1
     img_contents.append(END_COLUMN_HTML)
-    html = html_template.replace("%gallery%", "\n".join(img_contents))
+    html = html_template.replace("%topimg%", os.path.join(IMG_DIR_HTML, d, TOP_IMG_BIG_FILE_NAME)).replace("%gallery%", "\n".join(img_contents))
     with open(os.path.join(HTML_DIR, d) + ".html", mode="w") as f:
         f.write(html)
     
