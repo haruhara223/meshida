@@ -23,8 +23,11 @@
     color:red;
     padding:15px 10px;
 }
-.event-icon{
-    position:relative;
+.member-pic{
+    float: left;
+}
+.member-txt{
+    float:right;
 }
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
