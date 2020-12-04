@@ -27,9 +27,9 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: make gallery html
       run: |
-        cd tool
-        python3 make_gallery.py
+        #cd tool
+        #python3 make_gallery.py
     - name: image resize
       run: |
-        cd tool
-        python3 resize.py
+        #cd tool
+        #python3 resize.py
