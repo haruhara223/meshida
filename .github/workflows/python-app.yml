@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install PIL
+        pip install pillow
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: make gallery html
       run: |
