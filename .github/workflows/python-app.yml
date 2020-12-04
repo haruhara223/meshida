@@ -24,3 +24,7 @@ jobs:
       run: |
         cd tool
         python3 make_gallery.py
+    - name: image resize
+      run: |
+        cd tool
+        python3 resize.py
