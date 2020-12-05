@@ -106,7 +106,7 @@ header{
 .event-icon{
     position:relative;
 }
-.event-icon p{
+.event-icon h1{
     position:absolute;
     top:90px;
     width:100%;
