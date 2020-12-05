@@ -126,7 +126,6 @@ header{
 }
 .message-wrapper{
     border-bottom:1px solid;
-    padding-bottom:80px;
     text-align:center;
 }
 .message{
@@ -143,9 +142,6 @@ header{
     position:relative;
     top:7px;
     right:7px;
-}
-footer img{
-    width:125px;
 }
 footer p{
     color:#b3aeb5;
