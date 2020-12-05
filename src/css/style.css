@@ -9,7 +9,7 @@
     box-sizing:border-box;
 }
 body{
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif ,800;
 }
 .top-wrapper{
     padding-top:180px;
