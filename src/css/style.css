@@ -111,6 +111,8 @@ header{
     top:90px;
     width:100%;
     color:rgb(0, 0, 0);
+    background-color: white;
+    padding: 3px 3px;
 }
 .txt-contents{
     width:80%;
