@@ -116,6 +116,7 @@ header{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     border: 2px solid black;
+    text-align: center;
 }
 .txt-contents{
     width:80%;
