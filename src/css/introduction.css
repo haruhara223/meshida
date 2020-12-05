@@ -1,16 +1,5 @@
- .container{
-    max-width: 1170px;
-    width:100%;
-    padding:0 15px;
-    margin:0 auto;
-    background-color:rgb(255, 247, 130);
-} 
 *{
     box-sizing:border-box;
-}
-.contents{
-    margin:3em 3em;
-    line-height:1.5em;
 }
 .club-intro h1{
     font-size: 2em;
@@ -24,11 +13,7 @@
     color:red;
     padding:15px 10px;
 }
-.club-member{
-    float:left;
-    width:50%
-    display:inline-block;
-}
+
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
     .event{
