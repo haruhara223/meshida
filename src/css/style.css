@@ -109,14 +109,14 @@ header{
 .event-icon h1{
     position:absolute;
     bottom:150px;
-    width:85%;
+    width:100%;
     color:rgb(0, 0, 0);
     background-color: white;
     padding: 5px 5px;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     border: 2px solid black;
-    text-align: center;
+    margin:0 3px;
 }
 .txt-contents{
     width:80%;
