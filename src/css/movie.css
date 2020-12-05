@@ -17,15 +17,6 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
 }
-.top{
-    font-size: 2em;
-    background-color: rgb(255, 222, 36);
-    color:red;
-    padding:15px 10px;
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    border-radius: 8px;
-}
 .YouTube {
     position: relative;
     width: 100%;
