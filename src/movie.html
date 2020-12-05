@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>クラブ紹介</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/movie.css">
+    <script src="https://kit.fontawesome.com/c50e6fa42c.js" crossorigin="anonymous"></script>
+ </head>
+  <body>
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation" data-target="navbarBasicExample">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://twitter.com/mesidakaicho">
+          <img src="img/profile.jpg" alt="twitter">
+        </a>
+        <div class="navbar-item">めしだ会長非公式webサイト</div>
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <a class="navbar-item">
+          Home
+        </a>
+        <a class="navbar-item">
+          News
+        </a>    
+      </div>
+    </nav>
+    <div class="contents">
+      <div class="top">
+        <h1>YouTubeコンテンツ</h1>
+        <p>イベント関連動画です！参加者の方に撮影許可を頂き、これまでに多くの動画を撮影させていただきました。<br>ご協力ありがとうございます！</p>
+      </div>
+      <div class="YouTube"><iframe width="560" height="315" src="https://www.youtube.com/embed/TdgSj9yO52A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <div class="container">
+        <p>© 2020 meshidakaicho</p>
+      </div>
+    </div>
+  </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        if ($navbarBurgers.length > 0) {
+          $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
