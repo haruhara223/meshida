@@ -143,6 +143,21 @@ header{
     top:7px;
     right:7px;
 }
+.bottom{
+    float:right;
+    background-color: tomato;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.bottom:hover{
+    background-color: wheat;
+}
+.bottom a{
+    line-height:50px;
+    padding:0 15px;
+    color:white;
+    display:block;
+}
 footer p{
     color:#b3aeb5;
     font-size:12px;
