@@ -19,6 +19,12 @@
     background-color: rgb(255, 222, 36);
     color:red;
     padding:15px 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
+.top p{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
 }
 .event-icon{
     position:relative;
