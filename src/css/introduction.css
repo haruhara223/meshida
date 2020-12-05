@@ -27,7 +27,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
 }
-a.btn-sns {
+.card a.btn-sns {
     font-size: 2.4rem;
     line-height: 50px;
   
@@ -41,11 +41,11 @@ a.btn-sns {
     border-radius: 50%;
   }
   
-  a.btn-sns:hover {
+.card a.btn-sns:hover {
     color: #fff;
   }
   
-  a.btn-sns--twitter {
+.card a.btn-sns--twitter {
     background: #1da1f2;
   }
 /* タブレット向けレイアウト */
