@@ -1,6 +1,22 @@
 *{
     box-sizing:border-box;
 }
+.contents{
+    margin:3em 3em;
+}
+.top h1{
+    font-size: 2em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+    border-radius: 8px;
+}
+.top p{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
+}
 .top{
     font-size: 2em;
     background-color: rgb(255, 222, 36);
@@ -22,6 +38,21 @@
     width: 100%;
     height: 100%;
   }
+  .bottom{
+    float:right;
+    background-color: tomato;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.bottom:hover{
+    background-color: wheat;
+}
+.bottom a{
+    line-height:50px;
+    padding:0 15px;
+    color:white;
+    display:block;
+}
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
     .event{
