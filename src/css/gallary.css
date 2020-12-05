@@ -34,6 +34,7 @@
     float:right;
     background-color: tomato;
     transition: all 0.5s;
+    border-radius: 8px;
 }
 .bottom:hover{
     background-color: wheat;
@@ -43,7 +44,6 @@
     padding:0 15px;
     color:white;
     display:block;
-    border-radius: 8px;
 }
 /* タブレット向けレイアウト */
 @media(max-width:1000px){

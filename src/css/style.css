@@ -105,6 +105,7 @@ header{
 }
 .event-icon{
     position:relative;
+    background-color: white;
 }
 .event-icon p{
     position:absolute;
