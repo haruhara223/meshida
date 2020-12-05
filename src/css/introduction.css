@@ -6,12 +6,24 @@
     background-color: rgb(255, 222, 36);
     color:red;
     padding:15px 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
+.club-intro p{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
 }
 .club-member h1{
     font-size: 2em;
     background-color: rgb(255, 222, 36);
     color:red;
     padding:15px 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
+.card-content{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
 }
 
 /* タブレット向けレイアウト */
