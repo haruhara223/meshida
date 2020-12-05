@@ -34,3 +34,4 @@ for d in dir_list:
     html = html_template.replace("%topimg%", os.path.join(IMG_DIR_HTML, d, TOP_IMG_BIG_FILE_NAME)).replace("%gallery%", "\n".join(img_contents))
     with open(os.path.join(HTML_DIR, d) + ".html", mode="w") as f:
         f.write(html)
+    print(os.path.join(HTML_DIR, d) + ".html")
