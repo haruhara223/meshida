@@ -20,7 +20,7 @@ for d in dir_list:
     img_contents = []
     img_num = 0
     img_contents.append(OPEN_COLUMN_HTML)
-    for img_file_name in os.listdir(os.path.join(IMG_DIR, d)):
+    for img_file_name in sorted(os.listdir(os.path.join(IMG_DIR, d))):
         if img_file_name in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
         if img_num % 3 == 0 and img_num > 0:
             img_contents.append(END_COLUMN_HTML)
