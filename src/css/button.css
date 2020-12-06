@@ -1,3 +1,7 @@
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
 .bottom{
     float:right;
     background-color: tomato;
@@ -12,4 +16,11 @@
     padding:0 15px;
     color:white;
     display:block;
+}
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+footer{
+    clear: both;
 }

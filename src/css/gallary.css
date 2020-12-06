@@ -1,10 +1,14 @@
- .container{
-    max-width: 1170px;
-    width:100%;
-    padding:0 15px;
-    margin:0 auto;
-    background-color:rgb(255, 247, 130);
-} 
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
+footer{
+    clear: both;
+}
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
 *{
     box-sizing:border-box;
 }
