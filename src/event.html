@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>イベント動画</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/movie.css">
+    <script src="https://kit.fontawesome.com/c50e6fa42c.js" crossorigin="anonymous"></script>
+ </head>
+  <body>
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation" data-target="navbarBasicExample">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="img/不明/勇者.jpg" alt="twitter">
+        </a>
+        <div class="navbar-item">めしだ会長非公式webサイト</div>
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <a class="navbar-item" href="/">
+         ホーム
+        </a>
+        <a class="navbar-item" href="/introduction.html">
+          クラブ
+        </a>
+        <a class="navbar-item" href="/event.html">
+          イベント情報
+        </a>
+        <a class="navbar-item" href="/movie.html">
+          イベント動画
+        </a>
+        <a class="navbar-item" href="/gallary.html">
+          ギャラリー
+        </a>
+      </div>
+    </nav>
+    <div class="contents">
+      <div class="top">
+        <img src="img/不明/13h_logo.jpg">
+        <h1>最新イベント情報</h1>
+        <p>次回は栃木で2020年ラストの打ち納めイベントです！<br><br>卓球仲間と一緒に参加するも良し、2021年に向けて新たな卓球仲間を作るのも良しです！<br><br>※※参加申し込みは終了しております※※</p>
+      </div>
+      <div class="event">
+        <table>
+          <tr><td>名称</td><td>2020打ち納め13時間卓球</td></tr>
+          <tr><td>日程</td><td>2020年12月27日（日）</td></tr>
+          <tr><td>時間</td><td>9:00～21:00</td></tr>
+          <tr><td>場所</td><td>マウントアリーナ栃木</td></tr>
+        </table>
+      </div>
+        <div class="bottom">
+      <a href="#">ページの先頭へ戻る</a>
+      </div>
+    </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <div class="container">
+        <p>© 2020 meshidakaicho</p>
+      </div>
+    </div>
+  </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        if ($navbarBurgers.length > 0) {
+          $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
