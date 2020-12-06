@@ -22,7 +22,15 @@
     font-weight: 400;
     margin-top: 5px;
 }
-.event table,tr,td{
+.event table{
+    border:2px solid black;
+    padding: 5px;
+}
+.event tr{
+    border:2px solid black;
+    padding: 5px;
+}
+.event td{
     border:2px solid black;
     padding: 5px;
 }
