@@ -44,6 +44,13 @@
     color:white;
     display:block;
 }
+footer{
+    clear: both;
+}
+footer p{
+    color:#b3aeb5;
+    font-size:12px;
+}
 /* タブレット向けレイアウト */
 @media(max-width:1000px){
     .event{
