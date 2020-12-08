@@ -30,6 +30,7 @@ footer p {
 .top p{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
+    padding-top: 15px;
 }
 .event-icon{
     position:relative;
