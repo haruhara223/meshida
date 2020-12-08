@@ -27,9 +27,19 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: make gallery html
       run: |
-        #cd tool
-        #python3 make_gallery.py
+        cd tool
+        python3 make_gallery.py
     - name: image resize
       run: |
         #cd tool
         #python3 resize.py
+    - name: Commit files
+      run: |
+        git config --local user.email "g4.fine.yamanashi@gmail.com"
+        git config --local user.name "ishigen425"
+        git add .
+        git commit -m "make gallery" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
