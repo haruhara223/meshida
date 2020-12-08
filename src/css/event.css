@@ -17,20 +17,20 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
 }
-.event{
+.new-event{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
     margin-top: 5px;
 }
-.event table{
+.new-event table{
     border:2px solid black;
     padding: 5px;
 }
-.event tr{
+.new-event tr{
     border:2px solid black;
     padding: 5px;
 }
-.event td{
+.new-event td{
     border:2px solid black;
     padding: 5px;
 }
