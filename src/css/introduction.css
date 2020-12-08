@@ -12,7 +12,7 @@ footer p {
     color: #b3aeb5;
     font-size: 12px;
 }
-.club-intro h1{
+.has-text-centered h1{
     font-size: 1.5em;
     background-color: rgb(255, 222, 36);
     color:red;
@@ -23,13 +23,24 @@ footer p {
 .club-intro p{
     font-weight: 400;
 }
-.club-member h2{
+.club-intro h2{
     font-size: 1em;
     background-color: rgb(255, 222, 36);
     color:red;
     padding:15px 10px;
     font-weight: 800;
     border-radius: 8px;
+}
+.kaicho-prof h2{
+    font-size: 1em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+.kaicho-prof p{
+    font-weight: 400;
 }
 .card-content{
     font-weight: 400;
