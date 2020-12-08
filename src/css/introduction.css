@@ -46,7 +46,7 @@ footer p {
     top: 100%;
     left: 30px;
     border: 15px solid transparent;
-    border-top: 15px solid #e0edff;
+    border-top: 15px solid rgb(255, 222, 36);
     width: 0;
     height: 0;
   }
