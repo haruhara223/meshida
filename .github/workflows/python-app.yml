@@ -6,9 +6,14 @@ name: Python application
 on:
   push:
     branches: [ master ]
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
   pull_request:
     branches: [ master ]
-  paths:
+    paths:
       - '**.jpg'
       - '**.jpeg'
       - '**.png'
