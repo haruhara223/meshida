@@ -40,7 +40,7 @@ footer p {
     background-color:rgb(255, 222, 36);
     position: relative;
 }
-.kaicho-prof h1:after {
+.kaicho-prof h2:after {
     position: absolute;
     content: '';
     top: 100%;
