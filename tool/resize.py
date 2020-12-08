@@ -8,6 +8,7 @@ TOP_IMG_FILE_NAME = "topimg.jpg"
 dir_list = os.listdir(IMG_DIR)
 
 for d in dir_list:
+    if not os.path.isdir(os.path.join(IMG_DIR, d)): continue
     img_contents = []
     for img_file_name in os.listdir(os.path.join(IMG_DIR, d)):
         if img_file_name in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
