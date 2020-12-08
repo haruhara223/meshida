@@ -28,6 +28,8 @@ footer p {
     border-radius: 8px;
     background-color:rgb(255, 222, 36);
     position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .kaicho-prof h2:after {
     position: absolute;
@@ -41,12 +43,9 @@ footer p {
   }
 .kaicho-prof img{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .kaicho-prof p{
-    font-weight: 400;
-}
-.club-intro p{
     font-weight: 400;
 }
 .club-intro h2{
@@ -57,6 +56,8 @@ footer p {
     border-radius: 8px;
     background-color:rgb(255, 222, 36);
     position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .club-intro h2:after {
     position: absolute;
@@ -68,11 +69,18 @@ footer p {
     width: 0;
     height: 0;
   }
+  .club-intro p{
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 h3{
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: red;/*文字色*/
     background: transparent;/*背景透明に*/
     border-left: solid 5px rgb(255, 222, 36);/*左線*/
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .card-content{
     font-weight: 400;
