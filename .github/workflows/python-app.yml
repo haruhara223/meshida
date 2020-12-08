@@ -8,6 +8,11 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
 
 jobs:
   build:
