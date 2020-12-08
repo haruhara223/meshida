@@ -4,7 +4,7 @@
 .contents{
     margin:2em 2em;
 }
-.top h1{
+.new-event h1{
     font-size: 2em;
     background-color: rgb(255, 222, 36);
     color:red;
@@ -13,16 +13,13 @@
     font-weight: 800;
     border-radius: 8px;
 }
-.top p{
+.new-event p{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
-}
-.new-event{
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 400;
-    margin-top: 5px;
 }
 .new-event table{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
     border:2px solid black;
     padding: 5px;
 }
