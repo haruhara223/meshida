@@ -1,0 +1,379 @@
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
+.bottom{
+    float:right;
+    background-color: tomato;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.bottom:hover{
+    background-color: wheat;
+}
+.bottom a{
+    line-height:50px;
+    padding:0 15px;
+    color:white;
+    display:block;
+}
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+footer{
+    clear: both;
+}
+*{
+    box-sizing:border-box;
+}
+.contents{
+    margin:2em 2em;
+}
+.new-event h1{
+    font-size: 1.5em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+.new-event p{
+    font-weight: 400;
+}
+.new-event table{
+    font-weight: 400;
+    border:2px solid black;
+    padding: 5px;
+}
+.new-event tr{
+    border:2px solid black;
+    padding: 5px;
+}
+.new-event td{
+    border:2px solid black;
+    padding: 5px;
+}
+/* タブレット向けレイアウト */
+@media(max-width:1000px){
+    .event{
+        width:50%;
+        margin-bottom:50px;
+    }
+    .top-wrapper h1{
+        font-size:32px;
+    }
+    .heading h2{
+        font-size:20px;
+    }
+}
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+    .top-wrapper{
+        text-align:left;
+        padding-top:130px;
+    }
+    .top-wrapper p{
+        font-size:14px;
+    }
+}
+.top{
+    line-height: 1.4em;
+}
+.top h1{
+    font-size: 1.5em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+.top p{
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.event-icon{
+    position:relative;
+}
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+}
+.top{
+    line-height: 2.0em;
+}
+.top h1{
+    font-size: 2em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+}
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+.has-text-centered h1{
+    font-size: 1.5em;
+    background-color: rgb(255, 222, 36);
+    color:red;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.kaicho-prof h2{
+    font-size: 1em;
+    color:red;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color:rgb(255, 222, 36);
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.kaicho-prof h2:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(255, 222, 36);
+    width: 0;
+    height: 0;
+  }
+.kaicho-prof img{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.kaicho-prof p{
+    font-weight: 400;
+}
+.club-intro h2{
+    font-size: 1em;
+    color:red;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color:rgb(255, 222, 36);
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.club-intro h2:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(255, 222, 36);
+    width: 0;
+    height: 0;
+  }
+  .club-intro p{
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+h3{
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: red;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px rgb(255, 222, 36);/*左線*/
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.card-content{
+    font-weight: 400;
+}
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+}
+.top p{
+    font-weight: 400;
+}
+.YouTube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .YouTube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+}
+.top-wrapper{
+    padding-top:180px;
+    padding-bottom:50px;
+    background-image: url(https://i.ytimg.com/vi/cLEjqixSeRM/maxresdefault.jpg);
+    color:white;
+    text-align: center;
+}
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size:50px;
+    letter-spacing:10px
+}
+.top-wrapper p{
+    opacity:0.7
+}
+.btn{
+    padding:8px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    border-radius: 4px;
+}
+.application{
+    background-color: #239b76;
+}
+.youtube{
+    background-color: red;
+    margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+.btn-wrapper{
+    margin:20px;
+}
+.btn-wrapper p{
+    margin:10px 0 10px 0;
+}
+.btn:hover{
+    opacity:1;
+}
+.fab{
+    margin-right:10px;
+}
+header{
+    height:65px;
+    background-color:rgba(34, 49, 52, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.logo{
+    width:50px;
+    margin-top:5px;
+}
+.event-wrapper{
+    padding-bottom:80px;
+    background-color:#f7f7f7;
+    text-align: center;
+}
+.heading{
+    padding:60px 0 30px 0;
+    color:#5f5d60;
+    font-weight: normal;
+}
+.event{
+    float:left;
+    width:25%;
+}
+.clear{
+    clear:left;
+}
+.event-icon{
+    position:relative;
+}
+.event-icon p{
+    position:absolute;
+    bottom:150px;
+    width:100%;
+    color:rgb(0, 0, 0);
+    background-color: white;
+    padding: 5px 5px;
+    font-weight: 800;
+    border: 2px solid black;
+}
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:#b3aeb5;
+}
+.message-wrapper{
+    text-align:center;
+}
+.message{
+    background-color:#5dca88;
+    padding:15px 40px;
+    cursor:pointer;
+    box-shadow:7px 7px #1a7940;
+}
+.message:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+    right:7px;
+}
+/* スマホ向けレイアウト */
+@media(max-width:670px){
+    .event{
+        width:100%;
+    }
+    .btn{
+        width:100%;
+    }
+    .youtube{
+        margin-bottom:10px;
+    }
+    .top-wrapper{
+        text-align:left;
+        padding-top:130px;
+    }
+    .top-wrapper p{
+        font-size:14px;
+    }
+}
