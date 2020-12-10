@@ -5,6 +5,9 @@ body{
 *{
     box-sizing:border-box;
 }
+.w-100p{
+    width: 100%;
+}
 footer{
     clear: both;
 }
@@ -43,10 +46,6 @@ footer p {
     width: 0;
     height: 0;
   }
-.kaicho-prof img{
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
 .kaicho-prof p{
     font-weight: 400;
 }
