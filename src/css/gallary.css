@@ -23,9 +23,10 @@ footer p {
     background-color: rgb(255, 222, 36);
     color:red;
     padding:15px 10px;
-    font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .top p{
     font-family: 'M PLUS 1p', sans-serif;
