@@ -20,8 +20,8 @@ footer p {
 }
 .top h1{
     font-size: 1.5em;
-    background-color: rgb(255, 222, 36);
-    color:red;
+    background-color:#F2DB66;
+    color:rgb(0, 0, 0);
     padding:15px 10px;
     font-weight: 800;
     border-radius: 8px;
