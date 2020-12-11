@@ -4,15 +4,37 @@
 .contents{
     margin:2em 2em;
 }
-.new-event h1{
+.top h1{
     font-size: 1.5em;
     background-color: #F2DB66;
     color:black;
-    padding:15px 10px;
-    font-family: 'M PLUS 1p', sans-serif;
+    padding:15px 15px;
     font-weight: 800;
     border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
+.new-event h2{
+    font-size: 1em;
+    color:black;
+    padding:15px 10px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color:#F2DB66;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.new-event h2:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #F2DB66;
+    width: 0;
+    height: 0;
+  }
 .new-event p{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
