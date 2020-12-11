@@ -14,7 +14,7 @@ body{
 .top-wrapper{
     padding-top:180px;
     padding-bottom:50px;
-    background-image: url(img/不明/topimage.jpg);
+    background-image: url(../img/不明/topimage.jpg);
     text-align: center;
 }
 .top-wrapper h1{
