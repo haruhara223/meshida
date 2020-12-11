@@ -1,6 +1,10 @@
 *{
     box-sizing:border-box;
 }
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
 .contents{
     margin:2em 2em;
 }
