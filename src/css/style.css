@@ -15,6 +15,7 @@ body{
     padding-top:180px;
     padding-bottom:50px;
     background-image: url(../img/191228_13h_tochigi/EM35YewU4AAJ_RT.jpg);
+    background-size: 100% auto;
     text-align: center;
 }
 .top-wrapper h1{
