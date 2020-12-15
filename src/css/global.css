@@ -2,6 +2,10 @@ body{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
 }
+
+.main-color{
+    background-color: #FDE868;
+}
 .bottom{
     float:right;
     background-color: tomato;

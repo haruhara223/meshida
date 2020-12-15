@@ -10,7 +10,7 @@ body{
 }
 .top h1{
     font-size: 1.5em;
-    background-color: #F2DB66;
+    background-color: #FDE868;
     color:rgb(255, 97, 97);
     padding:15px 10px;
     font-family: 'M PLUS 1p', sans-serif;
@@ -30,7 +30,7 @@ body{
     padding:15px 15px;
     font-weight: 800;
     border-radius: 8px;
-    background-color:#F2DB66;
+    background-color:#FDE868;
     position: relative;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -41,7 +41,7 @@ body{
     top: 100%;
     left: 30px;
     border: 15px solid transparent;
-    border-top: 15px solid #F2DB66;
+    border-top: 15px solid #FDE868;
     width: 0;
     height: 0;
   }
