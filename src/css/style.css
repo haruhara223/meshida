@@ -186,9 +186,9 @@ footer p{
     }
     .top-wrapper{
         text-align:left;
-        padding-top:140px;
+        padding-top:150px;
         background-size: auto 100%;
-        background-position: right;
+        background-position: right 35%;
     }
     .top-wrapper p{
         font-size:14px;
