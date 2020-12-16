@@ -27,7 +27,6 @@ body{
 }
 .top-wrapper p{
     opacity:0.7
-    color:white;
 }
 .btn{
     padding:8px 24px;
@@ -187,7 +186,7 @@ footer p{
     }
     .top-wrapper{
         text-align:left;
-        padding-top:70px;
+        padding-top:90px;
         background-size: auto 100%;
         background-position: right;
     }
