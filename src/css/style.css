@@ -188,6 +188,8 @@ footer p{
     .top-wrapper{
         text-align:left;
         padding-top:70px;
+        background-size: auto 100%;
+        background-position: right;
     }
     .top-wrapper p{
         font-size:14px;
