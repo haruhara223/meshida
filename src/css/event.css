@@ -58,6 +58,14 @@ body{
     border:2px solid black;
     padding: 5px;
 }
+.new-event h3{
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: black;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #FDE868;/*左線*/
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
   .bottom{
     float:right;
     background-color: tomato;
