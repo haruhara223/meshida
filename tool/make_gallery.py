@@ -17,6 +17,7 @@ with open('template.html') as f:
     html_template = f.read()
 
 for d in dir_list:
+    if d == "不明": continue
     if not os.path.isdir(os.path.join(IMG_DIR, d)): continue
     img_contents = []
     img_num = 0
