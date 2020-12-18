@@ -49,6 +49,7 @@ body{
     font-weight: 400;
     border:2px solid black;
     padding: 5px;
+    margin-bottom: 10px;
 }
 .new-event tr{
     border:2px solid black;
@@ -63,7 +64,7 @@ body{
     color: black;/*文字色*/
     background: transparent;/*背景透明に*/
     border-left: solid 5px #FDE868;/*左線*/
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .new-event img{
