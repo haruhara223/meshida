@@ -63,8 +63,11 @@ body{
     color: black;/*文字色*/
     background: transparent;/*背景透明に*/
     border-left: solid 5px #FDE868;/*左線*/
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
+}
+.new-event img{
+    margin-top: 10px;
 }
   .bottom{
     float:right;
