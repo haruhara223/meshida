@@ -70,6 +70,10 @@ body{
 .new-event img{
     margin-top: 10px;
 }
+.new-event ul{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
+}
   .bottom{
     float:right;
     background-color: tomato;
