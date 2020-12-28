@@ -41,8 +41,8 @@ jobs:
         python3 make_gallery.py
     - name: image resize
       run: |
-        #cd tool
-        #python3 resize.py
+        cd tool
+        python3 resize.py
     - name: Commit files
       run: |
         git config --local user.email "g4.fine.yamanashi@gmail.com"
