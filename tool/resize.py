@@ -14,8 +14,8 @@ for d in dir_list:
     for img_file_name in os.listdir(os.path.join(IMG_DIR, d)):
         if img_file_name in (TOP_IMG_BIG_FILE_NAME, TOP_IMG_FILE_NAME): continue
         img = Image.open(os.path.join(IMG_DIR, os.path.join(d, img_file_name)))
-        if max(img.width, img.height) >= 1500:
+        if max(img.width, img.height) >= 800:
             scale_rate = max(img.width, img.height) / 800
-            img_resize = img.resize((img.width // scale_rate, img.height // scale_rate))
+            img_resize = img.resize((int(img.width // scale_rate), int(img.height // scale_rate)))
             img_resize.save(os.path.join(IMG_DIR, os.path.join(d, img_file_name)))
 
