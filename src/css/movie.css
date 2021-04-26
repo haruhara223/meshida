@@ -1,50 +1,7 @@
-*{
-    box-sizing:border-box;
-}
-body{
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-}
-.contents{
-    margin:2em 2em;
-}
-.top h1{
-    font-size: 1.5em;
-    background-color: #FDE868;
-    color:rgb(255, 97, 97);
-    padding:15px 10px;
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
 .contents p{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 400;
 }
-.contents h2{
-    font-size: 1em;
-    color:black;
-    padding:15px 15px;
-    font-weight: 800;
-    border-radius: 8px;
-    background-color:#FDE868;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-.contents h2:after {
-    position: absolute;
-    content: '';
-    top: 100%;
-    left: 30px;
-    border: 15px solid transparent;
-    border-top: 15px solid #FDE868;
-    width: 0;
-    height: 0;
-  }
 .YouTube {
     position: relative;
     width: 100%;
