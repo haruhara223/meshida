@@ -112,3 +112,7 @@ footer p {
         font-size:14px;
     }
 }
+/* projectのみ */
+.campfire{
+    text-align: center;
+}
