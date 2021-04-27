@@ -85,8 +85,8 @@ header{
     color:white;
     display:block;
 }
-.midashi{
-    font-weight: 800;
+.newsbox{
+    background-color: #8f8f8f;
 }
 .event-wrapper{
     padding-bottom:80px;
