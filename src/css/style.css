@@ -64,31 +64,6 @@ header{
     top:0;
     z-index:10;
 }
-dl{
-    background:#eee;
-    width:100%;
-  }
-  
-  dt{
-    color:rgb(0, 238, 255);
-    font-weight:bold;
-    width:25%;
-    float:left;
-    margin-bottom:7px;
-    text-align: left;
-  }
-  dd{
-    color:#333;
-    float:right;
-    margin-bottom:7px;
-    text-align: left;
-  }
-  
-  dl::after {
-      content: '';
-      display: block;
-      clear: both;
-  }
 .logo{
     width:50px;
     margin-top:5px;
