@@ -76,11 +76,13 @@ dl{
     width:25%;
     float:left;
     margin-bottom:7px;
+    text-align: left;
   }
   dd{
     color:#333;
     float:right;
     margin-bottom:7px;
+    text-align: left;
   }
   
   dl::after {
