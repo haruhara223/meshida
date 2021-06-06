@@ -97,10 +97,12 @@ header{
 }
 .flex-list{
     display:flex;
+    flex-wrap:wrap;
 }
 .flex-list li{
     flex:auto;
     padding:20px;
+    width:50%;
 }
 .event{
     float:left;
