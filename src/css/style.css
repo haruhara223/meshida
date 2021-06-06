@@ -100,7 +100,6 @@ header{
 }
 .flex-list li{
     flex:auto;
-    border:5px solid black;
     padding:20px;
 }
 .event{
