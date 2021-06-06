@@ -103,6 +103,8 @@ header{
     flex:auto;
     padding:20px;
     width:50%;
+    border-radius: 3px;
+    margin: 0 auto;
 }
 .event{
     float:left;
