@@ -100,6 +100,8 @@ header{
 }
 .flex-list li{
     flex:auto;
+    border:5px solid black;
+    padding:20px;
 }
 .event{
     float:left;
@@ -178,6 +180,12 @@ footer p{
     .heading h2{
         font-size:20px;
     }
+    .flex-list{
+        flex-wrap:wrap;
+    }
+    .flex-list li{
+        width:50%;
+    }
 }
 /* スマホ向けレイアウト */
 @media(max-width:670px){
@@ -198,5 +206,11 @@ footer p{
     }
     .top-wrapper p{
         font-size:14px;
+    }
+    .flex-list{
+        flex-direction:column;
+    }
+    .flex-list li{
+        margin: 0 auto;
     }
 }
