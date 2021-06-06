@@ -95,6 +95,12 @@ header{
     color:#5f5d60;
     font-weight: normal;
 }
+.flex-list{
+    display:flex;
+}
+.flex-list li{
+    flex:auto;
+}
 .event{
     float:left;
     width:25%;
