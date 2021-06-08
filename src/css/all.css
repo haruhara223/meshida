@@ -10,8 +10,10 @@ body{
 }
 h1 {
     position: relative;
-    padding: 1.5rem 2rem;
+    padding: 3rem 2rem;
     border: 4px solid #000;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
   }
   
   h1:before,
@@ -20,7 +22,7 @@ h1 {
     left: 0;
     width: 100%;
     content: '';
-    border-top: 4px dotted #000;
+    border-top: 4px dashed #000;
   }
   
   h1:before {
