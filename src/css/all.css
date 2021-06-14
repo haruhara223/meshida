@@ -116,3 +116,10 @@ footer p {
 .campfire{
     text-align: center;
 }
+/* introductionのみ */
+.flex-list{
+	flex-direction: column;
+}
+.flex-list li{
+	margin: 0 auto;
+}
