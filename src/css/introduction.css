@@ -14,5 +14,5 @@
 }
 
 .flex-list{
-	display: flex;
+	display: inline-block;
 }
