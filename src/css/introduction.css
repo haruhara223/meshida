@@ -15,8 +15,8 @@
 
 .flex-list{
 	display: flex;
+    display:inline-block;
 }
 .flex-list li {
 	flex:auto;
-    display:inline-block;
 }
