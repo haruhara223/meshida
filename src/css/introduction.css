@@ -14,10 +14,9 @@
 }
 
 .flex-list{
-	display: flex;
+	display: inline;
     flex-wrap: wrap;
 }
 .flex-list li{
     flex: auto;
-    width: 30%;
 }
