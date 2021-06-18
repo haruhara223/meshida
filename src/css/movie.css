@@ -77,18 +77,16 @@ a.btn--red {
 
   a.btn--purple {
     color: white;
-    background-color: #00acee;
-    border-bottom: 5px solid #006da0;
+    background-color: #4C64D3;
+    border-bottom: 5px solid #FFDD83;
   }
   
   a.btn--purple:hover {
     margin-top: 3px;
     color: white;
-    border-bottom: 2px solid #006da0;
-    background-image: -webkit-gradient(linear, left top, right top, from(#4C64D3), to(#FFDD83));
-    background-image: -webkit-linear-gradient(left, #4C64D3 0%, #FFDD83 100%);
-    background-image: linear-gradient(90deg, #4C64D3 0%, #FFDD83 100%);
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background-color: #4C64D3;
+    border-bottom: 2px solid #FFDD83;
+    
   }
 .fa-position-left {
     position: absolute;
