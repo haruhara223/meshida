@@ -20,3 +20,13 @@
     display: inline;
     flex: auto;
 }
+.fa-position-left {
+    position: absolute;
+    top: calc(50% - .5em);
+    left: 1rem;
+  }
+  .fa-position-right {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
+  }
