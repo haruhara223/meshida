@@ -7,35 +7,50 @@
 .top-wrapper p{
   opacity:0.7
 }
-.btn{
-  padding:8px 24px;
-  color:white;
-  display:inline-block;
-  opacity:0.8;
-  border-radius: 4px;
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
 }
-.application{
-  background-color: #239b76;
-}
-.youtube{
-  background-color: red;
-  margin-right: 10px;
-}
-.twitter{
-  background-color: #55acee;
-}
-.btn-wrapper{
-  margin:20px;
-}
-.btn-wrapper p{
-  margin:10px 0 10px 0;
-}
-.btn:hover{
-  opacity:1;
-}
-.fab{
-  margin-right:10px;
-}
+a.btn--red {
+    color: white;
+    background-color: #B0AB99;
+    border-bottom: 5px solid #635E4E;
+  }
+  
+  a.btn--red:hover {
+    margin-top: 3px;
+    color: white;
+    background: #B0AB99;
+    border-bottom: 2px solid #635E4E;
+  }
+.fa-position-left {
+    position: absolute;
+    top: calc(50% - .5em);
+    left: 1rem;
+  }
+  .fa-position-right {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
+  }
 
 .contents p{
     font-family: 'M PLUS 1p', sans-serif;
