@@ -28,9 +28,6 @@
   box-sizing: inherit;
 }
 
-.export{
-    margin: 0 auto;
-}
 .btn,
 a.btn,
 button.btn {
@@ -51,7 +48,6 @@ button.btn {
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.1em;
-  color: #212529;
   border-radius: 0.5rem;
 }
 a.btn--brown {
