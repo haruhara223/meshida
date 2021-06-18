@@ -14,9 +14,9 @@
 }
 
 .flex-list{
-	display: inline;
     flex-wrap: wrap;
 }
 .flex-list li{
+    display: inline;
     flex: auto;
 }
