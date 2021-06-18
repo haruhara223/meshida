@@ -13,6 +13,8 @@ h1 {
     position: relative;
     padding: 1.5rem 2rem;
     border: 4px solid #635E4E;
+    margin: 20px 10px;
+    background-color: #FDE868;
   }
   
   h1:before,
