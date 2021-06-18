@@ -31,15 +31,38 @@ button.btn {
 }
 a.btn--red {
     color: white;
-    background-color: #B0AB99;
-    border-bottom: 5px solid #635E4E;
+    background-color: #FF0000;
+    border-bottom: 5px solid #860000;
   }
   
   a.btn--red:hover {
     margin-top: 3px;
     color: white;
-    background: #B0AB99;
-    border-bottom: 2px solid #635E4E;
+    background: #FF0000;
+    border-bottom: 2px solid #860000;
+  }
+.fa-position-left {
+    position: absolute;
+    top: calc(50% - .5em);
+    left: 1rem;
+  }
+  .fa-position-right {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
+  }
+
+  a.btn--blue {
+    color: white;
+    background-color: #00acee;
+    border-bottom: 5px solid #006da0;
+  }
+  
+  a.btn--blue:hover {
+    margin-top: 3px;
+    color: white;
+    background: #00acee;
+    border-bottom: 2px solid #006da0;
   }
 .fa-position-left {
     position: absolute;
