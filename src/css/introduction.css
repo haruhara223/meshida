@@ -20,6 +20,18 @@
     display: inline;
     flex: auto;
 }
+a.btn--yellow {
+    color: white;
+    background-color: #B0AB99;
+    border-bottom: 5px solid #635E4E;
+  }
+  
+  a.btn--yellow:hover {
+    margin-top: 3px;
+    color: white;
+    background: #B0AB99;
+    border-bottom: 2px solid #635E4E;
+  }
 .fa-position-left {
     position: absolute;
     top: calc(50% - .5em);
