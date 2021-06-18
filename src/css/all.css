@@ -122,13 +122,13 @@ footer p {
     }
 }
 /* projectのみ */
-.campfire{
-    text-align: center;
-}
+    .campfire{
+        text-align: center;
+    }
 /* introductionのみ */
-.flex-list{
-	flex-direction: column;
-}
-.flex-list li{
-	margin: 0 auto;
-}
+    .flex-list{
+	    flex-direction: column;
+    }
+    .flex-list li{
+	    margin: 0 auto;
+    }
