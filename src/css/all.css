@@ -120,15 +120,15 @@ footer p {
     .top-wrapper p{
         font-size:14px;
     }
-}
-/* projectのみ */
+    /* projectのみ */
     .campfire{
         text-align: center;
     }
-/* introductionのみ */
+    /* introductionのみ */
     .flex-list{
 	    flex-direction: column;
     }
     .flex-list li{
 	    margin: 0 auto;
     }
+}
