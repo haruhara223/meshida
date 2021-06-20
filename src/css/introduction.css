@@ -19,7 +19,7 @@
     justify-content: center;
 }
 .flex-list li{
-    flex: auto;
+    flex-basis:200px;
 }
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
 *,
