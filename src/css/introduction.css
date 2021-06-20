@@ -18,6 +18,9 @@
     flex-basis:30%;
     text-align: center;
 }
+.export{
+  text-align: center;
+}
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
 *,
 *:before,
@@ -34,6 +37,7 @@ button.btn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
+  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
