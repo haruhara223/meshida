@@ -14,10 +14,11 @@
 }
 
 .flex-list{
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .flex-list li{
-    display: inline;
     flex: auto;
 }
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
