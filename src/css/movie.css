@@ -28,6 +28,7 @@ button.btn {
   text-decoration: none;
   letter-spacing: 0.1em;
   border-radius: 0.5rem;
+  margin: 15px;
 }
 a.btn--red {
     color: white;
