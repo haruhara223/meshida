@@ -74,10 +74,10 @@ header{
 .event-icon p{
     position:absolute;
     bottom:150px;
-    width:100%;
-    color:rgb(0, 0, 0);
+    width:90%;
+    color:#635E4E;
     background-color: white;
-    padding: 5px 5px;
+    padding: 10px 5px;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     border: 2px solid black;
